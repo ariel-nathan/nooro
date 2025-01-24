@@ -1,0 +1,16 @@
+{
+  "name": "nooro",
+  "private": true,
+  "packageManager": "pnpm@9.14.4",
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start",
+    "db:migrate": "pnpm --filter backend run db:migrate",
+    "db:seed": "pnpm --filter backend run db:seed"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ]
+}
