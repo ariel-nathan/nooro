@@ -23,7 +23,13 @@ pnpm db:migrate
 pnpm db:seed
 ```
 
-3. Start development servers:
+3. Copy the `.env.example` file to `.env` and fill in the missing values:
+
+```bash
+cp /frontend/.env.example /frontend/.env
+```
+
+4. Start development servers:
 
 ```bash
 pnpm dev
